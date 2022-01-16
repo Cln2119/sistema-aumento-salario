@@ -35,7 +35,7 @@ if (emp != null)
 }
 else
 {
-    Console.WriteLine("Essa ID não existe na lista");
+    Console.WriteLine("Essa ID não está na lista");
 }
 
 Console.WriteLine();
