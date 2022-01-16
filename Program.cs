@@ -23,7 +23,7 @@ for (int i = 1; i <= n; i++)
 
 }
 Console.WriteLine();
-Console.Write("Inclua o id do funcionário com aumento de salário: ");
+Console.Write("Inclua o id do funcionário que terá o aumento de salário: ");
 int pesquisa = int.Parse(Console.ReadLine());
 
 Funcionario emp = list.Find(x => x.Id == pesquisa);
